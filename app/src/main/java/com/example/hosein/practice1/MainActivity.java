@@ -33,28 +33,27 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (radioburoonselected()==1){
+                if (radioburoonselected() == 1) {
 
                     imageView.setImageResource(R.drawable.a);
 
 
-                }
-
-                else if (radioburoonselected()==2){
+                } else if (radioburoonselected() == 2) {
 
 
                     imageView.setImageResource(R.drawable.b);
-                }
-                else if (radioburoonselected()==3){
+                } else if (radioburoonselected() == 3) {
 
                     imageView.setImageResource(R.drawable.c);
 
-                }else
-                    Toast.makeText(MainActivity.this,"Select Image",Toast.LENGTH_SHORT).show();
+                } else
+                    Toast.makeText(MainActivity.this, "Select Image", Toast.LENGTH_SHORT).show();
 
+                if (checktransparentselected()) {
 
-                
+                    imageView.setAlpha((float) 0.5);
 
+                } else imageView.setAlpha((float) 1.0);
 
 
             }
