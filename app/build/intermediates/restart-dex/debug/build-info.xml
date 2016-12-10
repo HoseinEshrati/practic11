@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="10892288662481"
+    token="1692341401461362729"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="272" />
+    <task
+        name="instant-run-dex"
+        duration="9" />
+    <task
+        name="instant-run-transform"
+        duration="21" />
+    <task
+        name="verifier"
+        duration="3" />
+
+    <artifact
+        location="D:\JavaPorject\1p\practice11\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="10473407982402"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\JavaPorject\1p\practice11\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="10699000560984"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\JavaPorject\1p\practice11\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="D:\JavaPorject\1p\practice11\app\build\intermediates\builds\debug\10699000560984\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="10892288662481"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\JavaPorject\1p\practice11\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
