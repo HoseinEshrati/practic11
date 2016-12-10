@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
 
                 } else imageView.setAlpha((float) 1.0);
 
+                if (checkvisibilityselected()){
+
+                    imageView.setVisibility(View.VISIBLE);
+
+                }
+                else imageView.setVisibility(View.INVISIBLE);
 
             }
         });
