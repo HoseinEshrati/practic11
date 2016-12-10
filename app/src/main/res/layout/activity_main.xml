@@ -94,6 +94,13 @@
 
             >
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="@android:dimen/app_icon_size"
+                android:text="Set Image"
+                android:id="@+id/btimg"
+                />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
